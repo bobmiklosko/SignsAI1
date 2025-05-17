@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: signsai-n8n
+    env: docker
+    repo: https://github.com/bobmiklosko/SignsAI1
+    region: oregon
+    plan: free
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+
